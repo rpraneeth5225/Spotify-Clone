@@ -5,26 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Praneeth's Spotify</title>
     <link rel="stylesheet" href="../style.css" />
-    <link rel="icon" href="Spotify_Icon_RGB_Green.png" type="image/icon type" />
   </head>
-  <body class="h-screen bg-green-500">
-    <main class="flex h-full w-full items-center justify-center">
-      <section class="flex flex-col items-center gap-8">
+  <body class="h-screen bg-green">
+    <main class="w-full h-full flex justify-center items-center">
+      <section class="flex items-center flex-col gap-8">
         <img
           class="h-[20vh]"
           src="Spotify_Logo_RGB_Black.png"
-          alt="spotify-image"
+          alt="spotify image"
           srcset=""
         />
         <input
+          id="login-to-spotify"
           type="button"
           value="Login to Spotify"
-          id="login-to-spotify"
-          class="h-12 w-64 rounded-md bg-black text-white hover:cursor-pointer"
+          class="bg-dark h-12 w-64 rounded-md text-white hover:cursor-pointer"
         />
       </section>
     </main>
-    <!-- <button class="bg-red-800 text-blue-400"></button> -->
-    <script type="module" src="login.js"></script>
   </body>
+  <script type="module" src="login.js"></script>
 </html>

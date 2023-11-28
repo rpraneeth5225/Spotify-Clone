@@ -1,5 +1,6 @@
 import './style.css'
-// import viteLogo from '/vite.svg'
+
+
 
 document.addEventListener("DOMContentLoaded", () => {
   if(localStorage.getItem("accessToken")){
@@ -8,3 +9,4 @@ document.addEventListener("DOMContentLoaded", () => {
     window.location.href = "login/login.html";
   }
 })
+
